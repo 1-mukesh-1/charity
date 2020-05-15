@@ -1,3 +1,6 @@
+Note : complete document of my project with revied document id available in this repository(#'document.docx')
+
+
 # charity
 ONLINE CHARITY SYSTEM
 
@@ -41,3 +44,4 @@ SOFTWARE REQUIREMENTS :-
 2.	MYSQL 
 3.	Visual studio code or Atom Text Editor 
 4.	WAMP server
+
