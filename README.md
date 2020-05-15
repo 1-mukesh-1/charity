@@ -1,4 +1,4 @@
-***Note : complete document of my project with revied document id available in this repository('document.docx')***
+***Note : complete reviewed document of my project is available in this repository('document.docx')***
 
 
 # charity
