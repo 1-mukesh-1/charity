@@ -82,7 +82,7 @@
                       <div class="form-group col-xs-12">
                       <label for="username"><span class="text-danger" style="margin-right:5px;">*</span>Mobile number</label>
                           <div class="input-group">
-                              <input class="form-control" id="phno" type="text" name="phno" placeholder="Enter your mobile number" required/>
+                              <input class="form-control" id="phno" type="text" name="phno" pattern="[6-9]{1}[0-9]{9}" placeholder="Enter your mobile number" required/>
                               <span class="input-group-btn">
                                   <label class="btn btn-primary"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></label>
                               </span>
