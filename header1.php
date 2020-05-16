@@ -12,7 +12,7 @@ if(empty($_SESSION['user1'])){
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Charity Fund</title>
+    <title>Charity</title>
     <link rel="icon" href="images/fav.png" type="image/png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
@@ -84,6 +84,7 @@ if(empty($_SESSION['user1'])){
                      <li style="background-color:black" role="presentation"><a href="payments.php">my payments</a></li>
                     <li style="background-color:black" role="presentation"><a href="raisefund.php">Raise new fund</a></li>
                     <li style="background-color:black" role="presentation"><a href="showmine.php">Donations for my charity</a></li>
+                    <li style="background-color:black" role="presentation"><a href="delcharity.php">View and delete my charities</a></li>
                 </ul>
             </div>
         </div>

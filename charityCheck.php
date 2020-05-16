@@ -1,6 +1,6 @@
 <?php
 require_once "connect.php";
-if($_POST['file']!=NULL)
+if($_POST['fileToUpload']!=NULL)
 {
   $target_dir = "chars/";
   $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
@@ -43,7 +43,7 @@ if($_POST['file']!=NULL)
       echo "Sorry, there was an error uploading your file.";
     }
   }
-  $cover=$target_file;;
+  $cover=$target_file;
 }
 else
 {
@@ -69,7 +69,7 @@ else
 {
   $result=mysqli_query($link,$query);
   if (!$result) {
-    echo "error";
+    echo "Charity name is already taken try using another name";
     die();
   }
   $_SESSION['success']='added';
