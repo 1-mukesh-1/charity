@@ -23,7 +23,7 @@ Modules :-
 •	Donor list
 
 2.DONOR
-•	Donate
+•	Donation
 •	See charity info
 •	Raise invoice or certificate
 
